@@ -1,0 +1,347 @@
+
+
+/*<!-- ######################home page###################### -->*/
+html{
+  scroll-behavior:smooth;
+}
+
+.loading{
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background: #fff url('831.gif') no-repeat center;
+  z-index: 999999;
+}
+.element{
+  color:#45ccb8;
+}
+.typed-cursor{
+  color:#45ccb8;
+}
+.navbar{
+	background:transparent;}
+.navbar.active{
+  background:#45ccb8!important;}
+#home{
+	background:linear-gradient(#181b1b,#1b1d1fe3),url(bg.jpg);
+	
+	width:100%;
+   position:relative;
+	min-height:650px;
+	 clip-path:polygon(100% 0%,100% 77%,50% 100%,0 75%,0 0)
+           ;
+	
+}
+
+#home .text{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+#home .btn{
+	padding:10px 25px!important;
+	color:white;
+	background: #45ccb8;
+}
+#home .btn:hover{
+	background:red;
+
+}
+/*<!-- ######################home page###################### -->*/
+
+
+/*<!-- ######################about page###################### -->*/
+.about-heading h2{
+	margin-top:20px;
+   		text-align:center;
+   		/*max-width:600px;*/
+   		position: relative;
+}
+.about-heading h2:before{
+   		content:"";
+   		display:block;
+   		width:110px;
+   		height:2px;
+   		background:black;
+   		position:absolute;
+   		left:30%;
+   		top:50%;
+   		z-index:-2;
+   	}
+.about-heading h2:after{
+   		content:"";
+   		display:block;
+   		width:110px;
+   		height:2px;
+   		background:black;
+   		position:absolute;
+   		right:30%;
+   		top:50%;
+   		z-index:-2;}
+
+.about-heading span{
+   				background:white;}
+
+/*###########################################*/
+#about{
+  background:#00cec91c;
+
+  transform: skew(0deg,-4deg); 
+}
+.about-contant{
+    transform: skew(0deg,4deg);
+}
+.about-me .a{
+   color:#45ccb8;
+}
+.about-me h3{
+   font-weight:bold;
+}
+.about-me p{
+  font-size:15px;
+  font-weight:bold;
+}
+.about-me ul{
+  margin: 0;
+  padding: 0;
+}
+.about-me ul li{
+  list-style: none;
+
+}
+.about-me ul li .d{
+  font-weight:bold;
+}
+.my-pic .p{
+  width:100%;
+  height:550px;
+}
+.about-cl-2{
+padding:50px!important;
+}
+
+/*<!-- ######################about end###################### -->*/
+
+/*<!-- ######################service###################### -->*/
+#service{
+
+  background: #fdcb6e42;
+
+  transform: skew(0deg,-4deg); 
+}
+.s-everything{
+
+  transform: skew(0deg,4deg); 
+}
+.crd{
+  width:100%;
+  height:350px;
+  position:relative;
+  transform-style: preserve-3d;
+  transition: all .5s;
+
+
+    box-shadow: 0px 0px 10px 3px rgba(113, 92, 92, 0.5);
+
+}
+.image{
+   position:absolute;
+  text-align:center;
+  background:#fdcb6e;
+  height:100%;
+  width:100%;
+
+}
+.back{
+  position:absolute;
+  background: #10BFBB;
+  height:100%;
+  width:100%;
+  transform: rotatey(180deg);
+
+}
+.back p{
+  padding:10px!important;
+  margin-top:35px;
+}
+.crd:hover {
+   transform: rotatey(180deg);
+}
+.image .setting{
+  height:200px;
+  height:200px;
+}
+
+
+/*<!-- ######################sercice end###################### -->*/
+
+
+
+/*<!-- ######################skill###################### -->*/
+.h-icon{
+  font-size:30px;
+ /* color: #45ccb8;*/
+}
+.progress .progress-bar{
+ background:#45ccb8; 
+
+}
+.prgres{
+  padding:10px 80px!important;
+}
+
+
+
+/*<!-- ######################skill end###################### -->*/
+
+
+/*<!-- ###################### project###################### -->*/
+.prject-img img{
+
+  height:100%;
+  width:100%;}
+
+.p1{
+  
+  position:relative;
+ 
+}
+.project-text{
+position:absolute;
+height:0;
+width:100%;
+bottom:0;
+right:0;
+background:#000000a8;
+opacity:0;
+transition:0.5s;
+}
+.btn-success{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  padding:7px 20px!important;
+  font-weight:bold;
+}
+.p1:hover .project-text{
+opacity:1;
+transition:0.5s;
+height:100%;
+}
+
+/*<!-- ######################skill end###################### -->*/
+
+/*<!-- ######################contact###################### -->*/
+.contact{
+  background:url(a.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.contact i{
+  padding:10px;
+  background:white;
+  color:black;
+  border-radius:50%;
+}
+.form-group input{
+  background:transparent;
+  border:none;
+  outline: none;
+  border-bottom:2px solid white;
+}
+.form-group textarea{
+  background:transparent;
+}
+
+.form-group label{
+  color:#45ccb8 !important;
+}
+.msg{
+  padding:0px 50px!important;
+}
+
+
+#mybtn{
+  position:fixed;
+  bottom:20px;
+  right:50px;
+  z-index:99;
+  border:none;
+  background:#45ccb8;
+  padding:10px;
+  border-radius:10px;
+  
+}
+#mybtn:hover{
+  background:red;
+
+}
+.socal-icon{
+
+  margin-top:300px;
+position:fixed;
+background:#45ccb8;
+z-index:99999;
+}
+.socal-icon ul{
+  margin:0;
+  padding:0;}
+
+.socal-icon ul li{
+ 
+  list-style:none;
+  text-decoration:none;
+  border-bottom:1px solid white;
+}
+.socal-icon  li{
+  display:block;
+  font-size:25px;
+  padding:10px;
+}
+.socal-icon  li a{
+  color:white;
+}
+
+
+/*<!-- ######################contact end###################### -->*/
+
+ @media(max-width:775px){
+   .about-heading h2:before{
+           left:30px;
+          }
+           .about-heading h2:after{
+           right:30px;
+          }
+          .msg{
+  padding:0px 10px!important;
+  margin-top:40px;
+}
+
+ }
+
+
+ @media(max-width:575px){
+  .navbar{
+  background:#45ccb8;}
+       .about-heading h2:before{
+           left:10px;
+          }
+           .about-heading h2:after{
+           right:10px;
+          }
+          .about-cl-2{
+            padding:0!important;
+          }
+
+.prgres{
+  padding:5px 10px!important;
+}
+      }
+
+     
